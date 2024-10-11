@@ -1,0 +1,19 @@
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    color: #fff;
+    display: block;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+}

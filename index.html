@@ -17,7 +17,7 @@
                 <a href="/contact-us">Contact Us</a>
             </div>
             <div class="search-form-container">
-                <form id="search-form" onsubmit="handleSearch" class="d-flex">
+                <form id="search-form" class="d-flex">
                     <input type="search" id="search" class="form-control" placeholder="Enter a desination or keyword" />
                     <button type="submit" class="btn btn-primary btn-small mx-3">
                         Search
@@ -29,18 +29,20 @@
             </div>
         </div>
     </nav>
-    <main id="hero">
-        <div class="container">
+    <main id="hero" class="pt-5">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-6 ms-5">
+                <div class="col-6">
                     <h1>Explore Dream Destination</h1>
                     <p>It encourages exploration of unfamiliar territories, embracing diever cultuers and landscapes, while pursuing the desired desination that captivates the heart and ignites a sense of wonder.</p>
                     <button class="btn btn-primary">Book Now</button>    
                 </div>
+                <div class="col-6">
+                    <div id="search-results"></div>
+                </div>
             </div>
         </div>
     </main>
-    <div id="search-results"></div>
     <div class="social-links">
         <a href="#"><i class="twitter"></i></a>
         <a href="#"><i class="facebook"></i></a>
